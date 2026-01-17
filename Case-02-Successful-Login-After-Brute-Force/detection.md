@@ -9,4 +9,4 @@ The correlation of failed and successful authentication events within a short ti
 
 ### Alert Evidence
 
-![Wazuh Alerts](screenshots/wazuh-alerts.png)
+![Wazuh Alerts](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/screenshots/sucess.png?raw=true)

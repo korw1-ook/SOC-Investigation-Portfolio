@@ -8,4 +8,4 @@ The timing and nature of the activity strongly suggest an attempt to establish p
 
 ### Log Evidence
 
-![Persistence Logs](screenshots/persistence-log.png)
+![Persistence Logs](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/screenshots/per.png?raw=true)

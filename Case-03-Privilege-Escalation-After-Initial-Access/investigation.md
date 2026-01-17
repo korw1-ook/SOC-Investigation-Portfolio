@@ -10,4 +10,4 @@ Such behavior is uncommon for normal user activity and is consistent with post-c
 
 ### Log Evidence
 
-![Sudo Activity](screenshots/sudo-log.png)
+![Sudo Activity](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/screenshots/cmd.png?raw=true)

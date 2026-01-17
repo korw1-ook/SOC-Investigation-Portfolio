@@ -11,6 +11,6 @@ An alert was generated after multiple failed SSH login attempts were observed wi
 
 Figure 1 shows the Wazuh alert generated for repeated SSH authentication failures.
 
-![Wazuh Alert](screenshots/wazuh-alert.png)
+![Wazuh Alert](screenshots/fail_ssh.png)
 
 

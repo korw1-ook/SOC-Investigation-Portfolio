@@ -11,5 +11,5 @@ This pattern is not consistent with normal administrative behavior and strongly 
 
 Figure 2 shows authentication log entries confirming repeated failed SSH login attempts.
 
-![Authentication Logs](screenshots/auth-log.png)
+![Authentication Logs](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/screenshots/fail_ssh-auth.png?raw=true)
 

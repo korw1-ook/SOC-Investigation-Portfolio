@@ -1,4 +1,4 @@
-SOC Investigation Portfolio
+# SOC Investigation Portfolio
 
 This repository contains a collection of SOC-style incident investigation case studies created in a simulated security monitoring environment using Wazuh and Linux system logs.
 
@@ -6,136 +6,118 @@ Each case study represents a realistic security incident scenario and demonstrat
 
 The purpose of this portfolio is to showcase practical SOC skills including alert analysis, log investigation, timeline reconstruction, IOC identification, MITRE ATT&CK mapping, and incident documentation.
 
-🔍 Investigation Environment
+---
 
-Operating Systems: Ubuntu Linux (monitored endpoint)
+## Investigation Environment
 
-Monitoring Platform: Wazuh
+- Operating Systems: Ubuntu Linux (monitored endpoint)
+- Monitoring Platform: Wazuh
+- Data Sources:
+  - Linux authentication logs
+  - System logs
+  - File Integrity Monitoring (FIM)
+- Analysis Method: Evidence-based incident investigation
 
-Data Sources:
+---
 
-Linux authentication logs
+## Case Studies Overview
 
-System logs
+### Case 01 — Unauthorized SSH Access Attempt
+**Category:** Initial Access
 
-File Integrity Monitoring (FIM)
-
-Analysis Method: Evidence-based incident investigation
-
-📂 Case Studies Overview
-1️⃣ Case 01 — Unauthorized SSH Access Attempt
-
-Category: Initial Access
-
-Summary:
+**Summary:**  
 Investigation of multiple SSH authentication failures originating from an external IP address. The activity was analyzed to determine whether unauthorized access had occurred.
 
-Key Skills Demonstrated:
+**Key Skills Demonstrated:**
+- Alert triage and validation
+- Authentication log analysis
+- Identification of brute-force behavior
+- IOC extraction
+- MITRE ATT&CK mapping
 
-Alert triage and validation
+---
 
-Authentication log analysis
+### Case 02 — Successful Login After Brute Force
+**Category:** Account Compromise
 
-Identification of brute-force behavior
-
-IOC extraction
-
-MITRE ATT&CK mapping
-
-2️⃣ Case 02 — Successful Login After Brute Force
-
-Category: Account Compromise
-
-Summary:
+**Summary:**  
 Analysis of repeated SSH authentication failures followed by a successful login from the same source IP, indicating potential credential compromise.
 
-Key Skills Demonstrated:
+**Key Skills Demonstrated:**
+- Event correlation
+- Detection of successful brute-force activity
+- Timeline reconstruction
+- Identification of compromised accounts
+- Incident severity assessment
 
-Event correlation
+---
 
-Detection of successful brute-force activity
+### Case 03 — Privilege Escalation After Initial Access
+**Category:** Post-Compromise Activity
 
-Timeline reconstruction
-
-Identification of compromised accounts
-
-Incident severity assessment
-
-3️⃣ Case 03 — Privilege Escalation After Initial Access
-
-Category: Post-Compromise Activity
-
-Summary:
+**Summary:**  
 Investigation of privileged command execution following a successful remote login. The activity was analyzed to determine whether privilege escalation was attempted.
 
-Key Skills Demonstrated:
+**Key Skills Demonstrated:**
+- Post-access behavior analysis
+- Sudo activity investigation
+- Correlation between login and privilege usage
+- Detection of elevation attempts
+- Security control evaluation
 
-Post-access behavior analysis
+---
 
-Sudo activity investigation
+### Case 04 — Persistence Mechanism Detected on Linux Host
+**Category:** Persistence
 
-Correlation between login and privilege usage
-
-Detection of elevation attempts
-
-Security control evaluation
-
-4️⃣ Case 04 — Persistence Mechanism Detected on Linux Host
-
-Category: Persistence
-
-Summary:
+**Summary:**  
 Investigation of system modifications including unauthorized user creation and scheduled task changes, indicating attempts to maintain long-term access.
 
-Key Skills Demonstrated:
+**Key Skills Demonstrated:**
+- Persistence technique identification
+- File Integrity Monitoring (FIM) analysis
+- User and cron modification detection
+- Long-term threat assessment
+- Remediation planning
 
-Persistence technique identification
+---
 
-File Integrity Monitoring (FIM) analysis
-
-User and cron modification detection
-
-Long-term threat assessment
-
-Remediation planning
-
-🧠 Investigation Methodology
+## Investigation Methodology
 
 Each case study follows a structured SOC investigation workflow:
 
-Alert detection and validation
-
-Log review and evidence collection
-
-Timeline reconstruction
-
-Indicator of Compromise (IOC) identification
-
-MITRE ATT&CK technique mapping
-
-Impact assessment
-
-Remediation and monitoring recommendations
+1. Alert detection and validation  
+2. Log review and evidence collection  
+3. Timeline reconstruction  
+4. Indicator of Compromise (IOC) identification  
+5. MITRE ATT&CK technique mapping  
+6. Impact assessment  
+7. Remediation and monitoring recommendations  
 
 This approach reflects real-world SOC operations and incident response practices.
 
-🎯 Skills Demonstrated
+---
 
-SOC alert triage
+## Skills Demonstrated
 
-Linux log analysis
+- SOC alert triage
+- Linux log analysis
+- Wazuh rule interpretation
+- Incident investigation methodology
+- Attack lifecycle understanding
+- MITRE ATT&CK framework usage
+- Technical documentation and reporting
 
-Wazuh rule interpretation
+---
 
-Incident investigation methodology
+## Disclaimer
 
-Attack lifecycle understanding
-
-MITRE ATT&CK framework usage
-
-Technical documentation and reporting
-
-⚠️ Disclaimer
-
-All incidents documented in this repository were generated in a controlled lab environment for educational and demonstration purposes only.
+All incidents documented in this repository were generated in a controlled lab environment for educational and demonstration purposes only.  
 No production systems were affected.
+
+---
+
+
+
+
+

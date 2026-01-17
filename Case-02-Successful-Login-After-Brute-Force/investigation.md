@@ -10,4 +10,4 @@ Such behavior is inconsistent with legitimate user access and strongly suggests 
 
 ### Log Evidence
 
-![Authentication Logs](screenshots/auth-log-success.png)
+![Authentication Logs]([screenshots/auth-log-success.png](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/screenshots/ssh_accepted.png?raw=true))

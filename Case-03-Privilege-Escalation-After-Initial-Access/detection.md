@@ -8,4 +8,4 @@ Alerts were generated for sudo command usage shortly after a remote login sessio
 
 ### Alert Evidence
 
-![Wazuh Alert](screenshots/wazuh-privilege-alert.png)
+![Wazuh Alert](screenshots/sudo.png)

@@ -3,5 +3,4 @@
 
 - 10:19:42 – Initial failed SSH authentication attempt detected
 - 10:19:42 – Multiple additional login failures observed
-- 10:22:04 – Wazuh alert triggered for repeated SSH failures
-- 10:22:30 – Investigation initiated by analyst
+- 10:19:40 – Wazuh alert triggered for repeated SSH failures

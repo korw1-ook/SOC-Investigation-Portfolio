@@ -20,7 +20,10 @@ Each investigation focuses on topics such as:
 - Unauthorized access  
 - Initial access indicators  
 - Privilege escalation behavior  
-- Persistence-related activity  
+- Persistence-related activity
+- c2
+- Discovery
+  
 
 All cases are written in a simple and structured investigation format.
 
@@ -34,7 +37,6 @@ For every case, I try to follow a basic SOC mindset:
 - Analyze relevant logs  
 - Look for patterns and correlations  
 - Validate findings using evidence  
-- Map activity to MITRE ATT&CK  
 - Write a clear conclusion  
 
 This helps me think like a SOC analyst instead of just running tools.

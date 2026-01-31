@@ -23,7 +23,7 @@ we will add following columns:
 
 * file.path
 
-[images/chrome.png](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/elastic-kibana/Case-01-Tactical-Investigations/images/chrome.png?raw=true)
+![image](../images/chrome.png)
 
 **NOTE** : We can ignore the .tmp files created by Chrome. By default, chrome.exe creates a temporary file when a file is being downloaded.
 # conclusion
@@ -51,7 +51,7 @@ To confirm the zip file's contents, we can use the following KQL query to find e
 
 **KQL** : host.name: WKSTN-* AND *Update.zip*
 
-![SSH Bruteforce](images/email1.png)
+![SSH Bruteforce](../images/email1.png)
 
 # conclusion
 Based on the results, we confirm that an LNK file exists from the archive. A shortcut file (.lnk) archived to zip is a typical malware attachment.

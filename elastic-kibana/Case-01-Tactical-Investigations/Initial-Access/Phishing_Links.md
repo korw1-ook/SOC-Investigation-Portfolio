@@ -23,7 +23,7 @@ we will add following columns:
 
 * file.path
 
-![SSH Bruteforce]([images/chrome.png](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/elastic-kibana/Case-01-Tactical-Investigations/images/chrome.png?raw=true))
+![images]([images/chrome.png](https://github.com/korw1-ook/SOC-Investigation-Portfolio/blob/main/elastic-kibana/Case-01-Tactical-Investigations/images/chrome.png?raw=true))
 
 **NOTE** : We can ignore the .tmp files created by Chrome. By default, chrome.exe creates a temporary file when a file is being downloaded.
 # conclusion

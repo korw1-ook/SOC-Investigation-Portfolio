@@ -43,7 +43,7 @@ I will use the following KQL query to track files created by the Outlook client:
 
 **KQL** : host.name: WKSTN-* AND process.name: OUTLOOK.EXE AND winlog.event_id: 11
 
-![SSH Bruteforce](images/email.png)
+![SSH Bruteforce](../images/email.png)
 
 Based on the results, an attachment named **Update.zip** was opened, which was temporarily stored in the \AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\ directory.
 

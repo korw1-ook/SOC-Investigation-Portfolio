@@ -8,7 +8,7 @@ To start hunting, I will use the Visualize Library  and create a visualisation t
 
 KQL:  host.name: jumphost AND event.category: authentication AND system.auth.ssh.event: Failed
 
-![SSH Bruteforce](images/ssh.png)
+![SSH Bruteforce](../images/ssh.png)
 
 
 ---
@@ -20,7 +20,7 @@ Now we will find the sucessfull authentication.
 
 KQL: host.name: jumphost AND event.category: authentication AND system.auth.ssh.event: Accepted AND source.ip: (167.71.198.43 OR 218.92.0.115) 
 
-![SSH Bruteforce](images/authentication.png)
+![SSH Bruteforce](../images/authentication.png)
 
 ## conclusion
 

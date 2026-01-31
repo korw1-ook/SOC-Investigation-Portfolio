@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SOC Investigation Notes
 
 This repository contains documented security incident investigations performed during hands-on SOC practice in a simulated lab environment.

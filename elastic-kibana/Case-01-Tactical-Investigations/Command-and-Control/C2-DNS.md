@@ -10,7 +10,7 @@ use the Visualize Library again and create a visualisation table using Lens. Ens
 
 Set the Table Index (packetbeat), Rows (dns.question.registered_domain and host.name), and Metrics (Unique Count of dns.question.subdomain).
 
-![image](../images/c2/c2.png)
+![image](../images/C2/c2.png)
 
 it can be observed that an unusual domain golge.xyz queried 2188 unique subdomains, which may indicate a potential C2 over DNS activity coming from WKSTN-1. 
 
@@ -22,7 +22,7 @@ To better understand the attack, we can continue the investigation using the Dis
 
 add the query field as a column to see its values.
 
-![image](../images/c2/query.png)
+![image](../images/C2/query.png)
 
 Based on the results, the workstation seems to be continuously querying on golge.xyz, using different query types (CNAME, TXT and MX) and using hexadecimal subdomains
 
@@ -39,7 +39,7 @@ In addition, ensure that the following fields are added as columns to aid us in 
 * process.name
 * process.command_line
 
-![image](../images/c2/ns.png)
+![image](../images/C2/ns.png)
 
 ## conclusion
 

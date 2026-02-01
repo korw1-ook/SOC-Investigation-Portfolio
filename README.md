@@ -23,6 +23,7 @@ Each investigation focuses on topics such as:
 - Persistence-related activity
 - c2
 - Discovery
+- others suspicious behaviour
   
 
 All cases are written in a simple and structured investigation format.
